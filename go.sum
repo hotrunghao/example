@@ -1,0 +1,8 @@
+github.com/metakeule/config v1.12.1 h1:0b6t7+7GwCPGJuLYu7ky4RsDPG74kv3OsISunsgUjcA=
+github.com/metakeule/config v1.12.1/go.mod h1:ghQE2T5TRpLGDlNSw0Hju+Vj4+XnGD31jOYqvpl795A=
+github.com/metakeule/fmtdate v1.1.1 h1:TvWkgmMbqj+xMuaSQZRXbc1Ehi95PStoLZJu65Oaeyk=
+github.com/metakeule/fmtdate v1.1.1/go.mod h1:2JyMFlKxeoGy1qS6obQukT0AL0Y4iNANQL8scbSdT4E=
+github.com/metakeule/scaffold v1.6.3 h1:Yl6+ZnadvawqhJZVIT7dZlTNoERTARHwux+NAkc07BI=
+github.com/metakeule/scaffold v1.6.3/go.mod h1:e5xetCI1axcA5LZFuTU6+avWY5k1wYK9FDJ6MCsjrCA=
+gopkg.in/metakeule/scaffold.v1 v1.6.1 h1:VKgZurVSXeA37rrEAGRyHavoz6VkhwxjQKOifZqrDaA=
+gopkg.in/metakeule/scaffold.v1 v1.6.1/go.mod h1:KWGWnhlogh31IeJW1eVg9lAOTbWIpluzq45ORYwh8O4=
