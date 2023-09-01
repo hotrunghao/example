@@ -15,7 +15,7 @@ func TestCryptoFeeService(t *testing.T) {
 		Customer: Customer{
 			Tier: 1,
 		},
-		Provider: Provider{name: "Goose"},
+		Provider: Provider{Name: "Goose"},
 	}
 	var result = CryptoFeeService(feetypes_eth_customer_tier_1)
 	var expected = 10.03
@@ -33,7 +33,7 @@ func TestCryptoFeeService(t *testing.T) {
 		Customer: Customer{
 			Tier: 2,
 		},
-		Provider: Provider{name: "Duck"},
+		Provider: Provider{Name: "Duck"},
 	}
 	result = CryptoFeeService(feetypes_btc_customer_tier_1)
 	expected = 23.76
@@ -51,7 +51,7 @@ func TestCryptoFeeService(t *testing.T) {
 		Customer: Customer{
 			Tier: 3,
 		},
-		Provider: Provider{name: "Fox"},
+		Provider: Provider{Name: "Fox"},
 	}
 	result = CryptoFeeService(feetypes_sol_customer_tier_1)
 	expected = 1.05

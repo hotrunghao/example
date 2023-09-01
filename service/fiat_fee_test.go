@@ -100,7 +100,7 @@ func TestFiatFeeService(t *testing.T) {
 		Customer: Customer{
 			Tier: 1,
 		},
-		Provider: Provider{name: "FOX"},
+		Provider: Provider{Name: "FOX"},
 	}
 
 	result = FiatFeeService(feetypes_ach_customer_tier_1_provider_fox)
@@ -119,7 +119,7 @@ func TestFiatFeeService(t *testing.T) {
 		Customer: Customer{
 			Tier: 1,
 		},
-		Provider: Provider{name: "Goose"},
+		Provider: Provider{Name: "Goose"},
 	}
 
 	result = FiatFeeService(feetypes_ach_customer_tier_1_provider_goose)
@@ -138,7 +138,7 @@ func TestFiatFeeService(t *testing.T) {
 		Customer: Customer{
 			Tier: 1,
 		},
-		Provider: Provider{name: "duck"},
+		Provider: Provider{Name: "duck"},
 	}
 
 	result = FiatFeeService(feetypes_ach_customer_tier_1_provider_duck)

@@ -41,7 +41,7 @@ func FiatFeeService(types FeeTypes) Fees {
 		fee = 0
 	}
 
-	var provider = strings.ToUpper(types.Provider.name)
+	var provider = strings.ToUpper(types.Provider.Name)
 	switch provider {
 	case `DUCK`:
 		fee = fee + 5 + 0.001*amount
@@ -54,7 +54,7 @@ func FiatFeeService(types FeeTypes) Fees {
 
 	var fees = Fees{}
 	fees.Fee = fee
-	fees.Provider = types.Provider.name
-	fees.Asset = types.FeeAsset
+	fees.Provider = types.Provider.Name
+	fees.Asset = types.FromAsset
 	return fees
 }

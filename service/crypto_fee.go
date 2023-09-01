@@ -34,7 +34,7 @@ func CryptoFeeService(types FeeTypes) Fees {
 		fee = networkFee - (0.5 * networkFee)
 	}
 	var amount, _ = strconv.ParseFloat(types.FromAmount, 64)
-	var provider = strings.ToUpper(types.Provider.name)
+	var provider = strings.ToUpper(types.Provider.Name)
 	switch provider {
 	case `DUCK`:
 		fee = fee + 5 + 0.001*amount
@@ -47,7 +47,7 @@ func CryptoFeeService(types FeeTypes) Fees {
 
 	var fees = Fees{}
 	fees.Fee = fee
-	fees.Provider = types.Provider.name
+	fees.Provider = types.Provider.Name
 	fees.Asset = types.FeeAsset
 	return fees
 }

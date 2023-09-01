@@ -21,8 +21,8 @@ func TestFee(t *testing.T) {
 			Name: "FOX",
 		},
 	}
-	var fees Fees = Fee(feeType)
-	var expected = 2.05
+	var fees = Fee(feeType)
+	var expected = 6.0
 	if fees.Fee != expected {
 		t.Errorf("got %f, expected %f", fees.Fee, expected)
 	}
